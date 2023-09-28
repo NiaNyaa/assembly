@@ -1,17 +1,1 @@
-mov ecx, msg
-        mov ebx, 1
-        mov eax, 4
-        int 0x80
 
-        mov edx, 9
-        mov ecx, s2
-        mov ebx, 1
-        mov eax, 4
-        int 0x80
-
-        mov eax,1
-        int 0x80
-
-section .data
-msg db 'Menampilkan 9 bintang',0xa
-len equ $ - msg
